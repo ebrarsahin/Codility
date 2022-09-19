@@ -1,0 +1,5 @@
+// this function converts digit to binary.
+def convert (N):
+  N=bin(N) [2:]
+  return N
+print(convert(9))
