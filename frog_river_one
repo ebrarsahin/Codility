@@ -39,7 +39,7 @@ the function should return 6, as explained above.
 '''
 def solution(x, a):
     l = len(a)  
-    s = set() 
+    s = set() // empty cluster
     
     for i,e in enumerate(a):
         s.add(e)     
