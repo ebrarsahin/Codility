@@ -22,3 +22,12 @@ def solution(A,B,K):
       sum+=1
       print(i)
   return sum
+
+#efficient solution
+def solution(A, B, K):
+    # write your code in Python 3.6
+    d=int(B/K)-int(A/K)
+    
+    if A%K==0:
+        d+=1
+    return d
